@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="uft-8">
+    <meta  name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway&family=Roboto:ital,wght@0,700;1,400&display=swap');
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+.titre{
+  background-color:green;
+  background-position:center;
+  margin-top: 20px;
+  padding: 30px;
+  color: gray;
+}
+header {
+  background:url('https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/hacker.jpg?itok=bIbLoZ97');
+  background-position:center;
+  color:#fff;
+  height:60vh;
+  text-align:center;
+}
+header  nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  padding:20px;
+}
+header  nav a{
+  margin-right:10px;
+  color:#808080;
+  text-decoration:none;
+  
+}
+header  nav a:hover{
+  color:#0000ff;
+  border-bottom: 1px solid #919191;
+}
+  
+header .principal{
+  margin-top:60px;
+}
+header .principal h4{
+  padding:20px;
+  margin-top:-20px; 
+}
+header .bienvenue h1{
+				color:#808080;
+}
+header .bienvenue h4{
+				padding:20px;
+				
+}
+.biographie{
+  background-color:#222f3e;
+   padding:30px;
+    color:#fff;
+    display:flex;
+    flex-wrap:wrap;
+  }
+.biographie p a{
+  color:#C0C0C0;
+}
+.biographie h1{
+  text-align:center;
+  color:gray;
+}
+.biographie .gauche {
+				display:block;
+}
+.biographie .gauche img{
+  border: 2px solid #222f3e;
+  border-radius: 100%;
+  height: 20vh;
+  align-content: center;
+}
+.biographie .droite{
+  margin-right:10px;
+}
+  .bienvenue h4{
+  				margin-top:-20px;
+  }
+  .identifiants {
+  				background:url('https://nido-montessori.fr/wp-content/uploads/2019/10/role-informatique-1.jpg');
+  				padding:20px;
+          background-position: center;
+        }
+.identifiants h2{
+				text-align:center;
+				margin-top:-10px;
+				color:gray;
+}
+ .identifiants ul li{
+ 				color:#fff;
+ }
+footer{
+  background:#222f3e;
+  padding:30px;
+  color:#fff;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+footer .social-media{
+  display:flex;
+}
+footer .social-media p{
+  margin-right:15px;
+  border:1px solid lightblue;
+  border-radius:100%;
+  padding:5px;
+  text-align:center;
+  width:20px;
+  cursor:pointer;
+}
+
+footer .social-media p a{
+
+  text-decoration:none;
+
+  color:lightblue;
+
+}
+    footer .social-media p a:hover{
+      
+    }
+@media screen and (max-width:810px){
+  .biographie .droite{
+   display:block;
+    margin-left:auto;
+    margin-right:auto;
+  } 
+  .biographie .gauche{
+    width:100%;
+  margin-right:50px;
+  }
+  header{
+    height: 90vh;
+  }
+}
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>high-tech-visual site de presentation de biographie</title>
+  </head>
+  <body>
+    <section class="titre">
+    <h1>HIGH-TECH-VISUAL</h1>
+  </section>
+    <header class="post-entete">
+        <nav>
+          <div class="logo">
+          </div>
+          <div class="options">
+            <a href="#biographie">biographie</a>
+            <a href="#identifiants">identifiant</a>
+            <a href="mailto:mayisergeswilliam@gmail.com">contact</a>
+          </div>
+        </nav>
+      </div>
+      <div class="principal">
+        <h1 style="color:gray"><i class="fas fa-globe-americas"></i>La programmation, ma passion</h1>
+        <h4>Le monde de demain est réservé aux passionnés. Si les ouvriers construisaient les batiments comme les developpeurs ecrivent leurs programmes. Le premier pivert venu aurait detruit toute la civilisation - Gerald Weinber</h4>
+      </div>
+      <div class="bienvenue">
+      				<h1><i class="fa-solid fa-door-open"></i>Bienvenue</h1>
+      				<h4>je vous souhaite la bienvenue sur ma page web. Comme vous vous en doutez la conception de cette dernière a été vraiment un grande tache pour moi, mais je suis heureux que cela ait abouti. Sur ce laissé moi vous expliquer de quoi il est question ici. Cette page vous présente un léger aperçu de ma vie. Comprenez que je tiens quand même que je tiens à garder certaines informations pour moi. Sur ceux, bonne navigation.</h4>
+      </div>
+    </header>
+  <section class="biographie" id="biographie">
+     <div class="gauche">
+       <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/262229550_661030748640805_7325820915494033496_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeEZ2iaZj44BWW8iL67d27VJSPLEErVCVBBI8sQStUJUEM6J4dPU7kOac12jeTWQyJ2f2wAY6bIKrxOpOvg0Tbs2&_nc_ohc=3GO5oFv2YBEAX9_CaXI&_nc_ht=scontent-lhr8-1.xx&oh=ebce7aad9be9d62ee270ee78dd5a9d4f&oe=61A8D739">
+      <div class="droite">
+      <h1 style="color:gray">Mayi serges william patrick</h1>
+      <p>Fils de Mayi guillaume et de Tetcho marie céline. Je suis né <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiU7rPKt8D0AhVJyoUKHUpODjUQFnoECA0QAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FJanvier_2004&usg=AOvVaw17H6TByojfODLTO7u7oWwe" >le 14 janvier de l'année 2004</a> dans la ville de <a href="https://www.google.com/url?sa=t&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjIgOKyt8D0AhUtxoUKHX5MA60QFnoECBEQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FDouala&usg=AOvVaw1sDUdcS8o8Zp_hN64NyXgo" >Douala</a>. Je suis de <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiN-7GQvsD0AhVmgs4BHZHDBg0QFnoECAoQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FCameroun&usg=AOvVaw1TpSQAUWKWSHLyzy5PhkLP">nationalité camerounaise</a>. Originaire de la <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjb6rDYu8D0AhXCzYUKHYp_A-8QFnoECA8QAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FR%25C3%25A9gion_du_Centre_(Cameroun)&usg=AOvVaw0HjEQT9o9yxK5maolO-ioE">région du centre</a>,plus précisément du département du <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi9-Nf2tsD0AhWyyYUKHRNqDEEQFnoECAQQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FNyong-et-K%25C3%25A9ll%25C3%25A9&usg=AOvVaw10jBWJy8ruL6_g8G7utRRm" >nyong-et-kéllé</a>. J'ai tout d'abord vecu au quartier dit "Bepanda omnisport" par très loin du <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiO6ZrxuMD0AhVqx4UKHR1UB9MQFnoECAMQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FStade_de_la_R%25C3%25A9unification&usg=AOvVaw0oJWH4kkyDaFG3reRR8S0-">stade de la reunification</a> à <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi4z7POtsD0AhVDxIUKHQ6rA0wQFnoECBAQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FDouala&usg=AOvVaw1sDUdcS8o8Zp_hN64NyXgo">Douala</a>. J'ai passé près de 8 ans dans ce quartier avant de déménager pour mon quartier actuel Oyack. J'ai fait l'integralité de mes etudes secondaires au lycée d'oyack d'où je suis sortit titulaire d'un probatoire te baccalauréat C. Présentement,je suis etudiant niveau 1 à <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwib5bfPucD0AhVGyhoKHVOzCgwQFnoECBEQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FUniversit%25C3%25A9_de_Douala&usg=AOvVaw3NSxfn9F-OPXIcXPMTlnpY">la faculté des sciences de l'universiré de Douala</a> situé à pk17 où j'etudie <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi92rywvsD0AhVIgs4BHTPuCD0QFnoECAUQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FInformatique&usg=AOvVaw16t5Qjmgxg8GlOUzEDNuGO">l'informatique. J'ai commencé à apprendre les languages informatique à partir de la classe de seconde par le HTML5. Ensuite, les languages C et CSS. neanmoins, C'est en première année que j'ai commencé à m'approfondir sur ces languges.</a>.</p>
+    </div>
+   
+    </div>
+  </section>
+  <section class="identifiants" id="identifiants">
+  				<h2> Mes identifiants</h2>
+  				<ul>
+  								<li> Étudiant Mayi Serges-william Patrick</li>
+  								<li>Matricule : 21s56967</li>
+  								<li>filière : Informatique ;</li>
+  				</ul>
+  </section>
+ <footer>
+   <p>copyright &copy; high-tech-visual 2021 contactez-nous au  6 97 65 96 48</p>
+   <div class="social-media">
+    <p><a href="https://wa.me/message/P2CO4M2Z2WREE1" class="fab fa-whatsapp"></a></p>
+   <p><a href=" https://www.facebook.com/sergeswilliam.mayi.9" class="fab fa-facebook-f"></a></p>
+     <p><a href="https://twitter.com/mayiwilliam?t=opE4waeUXiRDa6TcsI51Tw&s=09" class="fab fa-twitter"></a></p>
+     <p><a href="https://www.instagram.com/invites/contact/?i=1pva9pj4w4g1o&utm_content=jzf7gxz" class="fab fa-instagram"></a></p>
+   </div>
+  </footer>
+  </body>
+</html>
